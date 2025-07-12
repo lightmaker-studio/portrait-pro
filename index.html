@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portrait Professionnel – Studio Faiseurs de Lumière</title>
+  <!-- GA4 placeholder -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-XXXXXXXXXX');</script>
+  <style>
+    :root{--primary:#000000;--secondary:#f4f4f4;--accent:#ffffff;--text:#333333;--radius:8px;}
+    *{box-sizing:border-box;margin:0;padding:0;}
+    body{font-family:Arial,Helvetica,sans-serif;background:var(--secondary);color:var(--text);line-height:1.5;}
+    header{background:var(--accent);} 
+    header img{width:100%;max-height:280px;object-fit:cover;border-bottom:4px solid var(--primary);} 
+    header .hero{padding:3rem 1rem;text-align:center;}
+    h1{font-size:2.5rem;font-weight:700;margin-bottom:1rem;}
+    .maxime{font-style:italic;font-size:1.1rem;margin-bottom:2rem;}
+    .steps{display:flex;flex-wrap:wrap;gap:1.5rem;justify-content:center;padding:3rem 1rem;}
+    .step{background:var(--accent);padding:2rem;border-radius:var(--radius);max-width:360px;flex:1 1 280px;box-shadow:0 2px 6px rgba(0,0,0,.08);} 
+    .step h2{font-size:1.25rem;font-weight:600;margin-bottom:.75rem;}
+    .btn{display:inline-block;background:var(--primary);color:#fff;padding:.8rem 1.6rem;border-radius:var(--radius);text-decoration:none;font-weight:600;margin-top:1rem;transition:background .25s;}
+    .btn:hover{background:#333333;}
+    footer{padding:2rem 1rem;text-align:center;font-size:.9rem;color:#666;}
+  </style>
+</head>
+<body>
+  <header>
+    <img src="images/banner.jpg" alt="Studio Faiseurs de Lumière">
+    <div class="hero">
+      <h1>Portrait Professionnel</h1>
+      <p class="maxime">« Un portrait clair ouvre plus de portes qu’une carte de visite. »</p>
+      <p>Forfait <strong>99 € HT</strong> (119 € TTC) — délivrance des fichiers HD sous 72 h.<br>Option second portrait&nbsp;: +50 € HT.</p>
+      <a href="https://calendly.com/lightmaker-creation/portrait-pro-99" class="btn" target="_blank" rel="noopener noreferrer" onclick="gtag('event','click_reserver_portrait',{event_category:'CTA',event_label:'landing',value:1});">Réserver mon portrait</a>
+    </div>
+  </header>
+
+  <section class="steps">
+    <div class="step">
+      <h2>1 – Réservez votre créneau</h2>
+      <p>Choisissez la date et l’heure qui vous conviennent. Paiement sécurisé en ligne, option second portrait disponible.</p>
+    </div>
+    <div class="step">
+      <h2>2 – Venez au studio</h2>
+      <p>Séance de 45 min (+15 min sélection). Parking gratuit à 100 m : Parking Isole – Sainte‑Croix ou place Saint‑Michel.</p>
+    </div>
+    <div class="step">
+      <h2>3 – Recevez vos fichiers</h2>
+      <p>Portrait(s) retouché(s) livré(s) sous 72 h par lien de téléchargement, prêt à booster votre présence en ligne.</p>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 – Faiseurs de Lumière | 3 rue Savary, 29300 Quimperlé – contact@lightmaker-studio.com – +33 6 24 04 20 34
+  </footer>
+</body>
+</html>
